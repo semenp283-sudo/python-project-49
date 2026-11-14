@@ -22,6 +22,8 @@ cd python-project-49
 
 ## Использование
 
+brain-progression =  https://asciinema.org/connect/22618a7a-93c4-483f-80bb-c560bfa45ac9
+brain-prime = https://asciinema.org/connect/22618a7a-93c4-483f-80bb-c560bfa45ac9
 <!-- Добавьте примеры запуска и запись asciinema — именно это смотрит работодатель -->
 
 ---
