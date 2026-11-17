@@ -30,7 +30,3 @@ packages = ["brain_games"]
 dev = [
     "ruff>=0.17.4",
 ]
-
-
-[tool.ruff.lint]
-ignore = ["suspicious-non-cryptographic-random-usage"]

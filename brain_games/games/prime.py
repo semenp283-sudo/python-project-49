@@ -15,7 +15,7 @@ def is_prime(number):
 def generate_round():
     MIN_NUMBER = 1
     MAX_NUMBER = 100
-    number = random.randint(MIN_NUMBER, MAX_NUMBER)  # ruff: ignore[suspicious-non-cryptographic-random-usage]
+    number = random.randint(MIN_NUMBER, MAX_NUMBER)
 
     correct_answer = "yes" if is_prime(number) else "no"
 

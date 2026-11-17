@@ -11,8 +11,8 @@ def find_gcd(number1, number2):
 def generate_round():
     MIN_NUMBER = 1
     MAX_NUMBER = 100
-    number1 = random.randint(MIN_NUMBER, MAX_NUMBER)  # ruff: ignore[suspicious-non-cryptographic-random-usage]
-    number2 = random.randint(MIN_NUMBER, MAX_NUMBER)  # ruff: ignore[suspicious-non-cryptographic-random-usage]
+    number1 = random.randint(MIN_NUMBER, MAX_NUMBER)
+    number2 = random.randint(MIN_NUMBER, MAX_NUMBER)
 
     question = f"{number1} {number2}"
     correct_answer = str(find_gcd(number1, number2))
